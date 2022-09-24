@@ -1,37 +1,23 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace ChessComponents
+﻿namespace ChessComponents
 {
-    public enum File
+    public enum SquareColor
     {
-        A = 1, B, C, D, E, F, G, H
-    }
-    public enum Rank
-    {
-        [Display(Name = "1")]
-        One,
-        [Display(Name = "2")]
-        Two,
-        [Display(Name = "3")]
-        Three,
-        [Display(Name = "4")]
-        Four,
-        [Display(Name = "5")]
-        Five,
-        [Display(Name = "6")]
-        Six,
-        [Display(Name = "7")]
-        Seven,
-        [Display(Name = "8")]
-        Eight
+        Light,
+        Dark,  
     }
     public enum PieceType
     {
-        Pawn,
-        Knight,
-        Bishop,
-        Rook,
-        Queen,
-        King
+        DarkPawn,
+        LightPawn,
+        DarkKnight,
+        LightKnight,
+        DarkBishop,
+        LightBishop,
+        DarkRook,
+        LightRook,
+        DarkQueen,
+        LightQueen,
+        DarkKing,
+        LightKing
     }
 }

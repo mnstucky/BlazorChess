@@ -1,0 +1,35 @@
+﻿.light
+{
+    background-color: white;
+}
+
+.dark
+{
+    background-color: mediumpurple;
+}
+
+div
+{
+    width: 4rem;
+    height: 4rem;
+}
+
+.top-left
+{
+    border-start-start-radius: 10px;
+}
+
+.top-right
+{
+    border-start-end-radius: 10px;
+}
+
+.bottom-left
+{
+    border-end-start-radius: 10px;
+}
+
+.bottom-right
+{
+    border-end-end-radius: 10px;
+}

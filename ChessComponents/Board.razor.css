@@ -1,1 +1,10 @@
-﻿
+﻿.row
+{
+    display: flex;
+}
+
+#board
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+}

@@ -1,4 +1,6 @@
-﻿#loading-container {
+﻿@import '_content/ChessComponents/ChessComponents.bundle.scp.css';
+
+#loading-container {
     display: flex;
     justify-content: center;
     align-items: center;
